@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anmol Chhetri - Personal Portfolio</title>
+    <meta name="description" content="Personal portfolio for Anmol Chhetri, BCA student from Butwal" />
+    <meta name="author" content="Anmol Chhetri" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-content">
+          <a href="https://www.facebook.com/AnmolXettri.AC" class="logo">Anmol Chhetri</a>
+          <div class="nav-links">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </div>
+          <button class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#education" class="mobile-link">Education</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Hi, I’m Anmol. Delighted to meet you!</h1>
+            <p>BCA Student at Butwal Kalika Campus</p>
+            <div class="hero-buttons">
+              <a href="#contact" class="primary-button">Contact Me</a>
+              <a href="#about" class="secondary-button">Learn More</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="anmol.jpg" alt="Anmol Chhetri">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              My name is Anmol Chhetri. I am a BCA (Bachelor of Computer Applications) student at Butwal Kalika Campus. 
+              I was born and raised in Butwal, Nepal where I currently live.
+            </p>
+            <p>
+              I am passionate about technology and software development. Through my BCA program, I'm gaining a strong 
+              foundation in programming, database management, web development, and other computer science concepts.
+            </p>
+            <p>
+              I enjoy learning new technologies and applying my knowledge to create useful applications.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+      <div class="container">
+        <h2 class="section-title">My Education</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Bachelor of Computer Applications (BCA)</h3>
+              <p class="timeline-place">Butwal Kalika Campus</p>
+              <p class="timeline-date">Present</p>
+              <p>Currently pursuing my bachelor's degree in Computer Applications.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>+2 Science</h3>
+              <p class="timeline-place">Kalika Manavgyan Secondary School</p>
+              <p class="timeline-date">Completed</p>
+              <p>Completed my higher secondary education with a focus on Science.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>School Education (SEE/SLC)</h3>
+              <p class="timeline-place">Prabhat English Boarding Secondary School</p>
+              <p class="timeline-date">10th Grade Passed</p>
+              <p>Completed my school education at Prabhat English boarding School.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="icon-email"></i>
+              <p>canmol350@gmail.com</p>
+            </div>
+            <div class="contact-item">
+              <i class="icon-location"></i>
+              <p>Butwal, Nepal</p>
+            </div>
+            <div class="contact-social">
+              <a href="https://facebook.com/Anmol-Xettri" class="social-link">
+                <i class="icon-facebook"></i>
+                <span>9748809637</span>
+              </a>
+              <a href="https://github.com/anmolchhetri" class="social-link">
+                <i class="icon-github"></i>
+                <span>Anmol Xettri</span>
+              </a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="primary-button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2023 Anmol Chhetri. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

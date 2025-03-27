@@ -310,6 +310,54 @@
     font-size: 0.875rem;
     margin-bottom: 1rem;
   }
+  /* skill section   */
+  .skill {
+    background: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 50px auto;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill h2 {
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  }
+  
+  .skill ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skill li {
+    background: #f6f6f6;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #555555;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill li:hover {
+    background: #007bff;
+    color: #ffffff;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
   
   /* Contact Section */
   .contact-content {
@@ -332,32 +380,22 @@
     margin-bottom: 1rem;
   }
   
-  .contact-item i {
-    width: 24px;
-    height: 24px;
+  .contact-item .java {
+    width: 20px;
+    height: auto;
     margin-right: 1rem;
     display: inline-block;
+    color: rgb(33, 200, 230);
+  }
+  .contact-social .java{
+    width: 20px;
+    height: auto;
+    margin-right: 1rem;
+    display: inline;
+    color: rgb(33, 200, 230);
   }
   
-  .icon-email:before {
-    content: "✉️";
-  }
   
-  .icon-location:before {
-    content: "📍";
-  }
-  
-  .icon-facebook:before {
-    content: "📱";
-  }
-  
-  .icon-github:before {
-    content: "💻";
-  }
-  
-  .contact-social {
-    margin-top: 1.5rem;
-  }
   
   .social-link {
     display: flex;
